@@ -1,0 +1,22 @@
+{
+    "name": "aliengen/pachyderm-boilerplate",
+    "description": "Get started with Pachyderm!",
+    "type": "project",
+    "require": {
+        "aliengen/pachyderm": "dev-master",
+        "vlucas/phpdotenv": "5.3.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Timothé Mermet-Buffet",
+            "email": "tim@aliengen.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
