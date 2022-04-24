@@ -27,17 +27,17 @@ $dispatcher->registerMiddlewares([
     // Pachyderm\Middleware\SessionMiddleware::class,
 
     /**
-     * Disable this if you don't want the execution time to 
+     * Disable this if you don't want the execution time to
      * be added to the payload.
      */
     Pachyderm\Middleware\TimerMiddleware::class,
 
     /**
-     * Enable this if you connect to a MySQL database.
-     */
+ * Enable this if you connect to a MySQL database.
+ */
     // Pachyderm\Middleware\DbSessionMiddleware::class
 ]);
 
-require_once(__DIR__.'/../app/routes.php');
+require_once(__DIR__ . '/../app/routes.php');
 
 $dispatcher->dispatch();
